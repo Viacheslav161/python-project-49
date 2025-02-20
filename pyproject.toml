@@ -1,12 +1,11 @@
 [project]
-name = "python-project-49"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "more-itertools>=10.6.0",
-]
+dependencies = []
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
@@ -16,4 +15,4 @@ packages = ["brain_games"]
 
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
-
+brain-even = "brain_games.scripts.brain_even:main"
