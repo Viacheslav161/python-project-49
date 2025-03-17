@@ -1,11 +1,6 @@
-from brain_games.cli import welcome_user
-
-def main():
-    """Основная функция игры."""
-    print("Welcome to the Brain Games!")
-    welcome_user()
-
+from ..games import brain_games
 
 if __name__ == "__main__":
-    main()
+	brain_games.main()
+
 

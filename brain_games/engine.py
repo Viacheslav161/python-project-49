@@ -2,6 +2,7 @@ import prompt
 
 ROUNDS = 3
 
+
 def run_game(game):
     """
     Запускает игру, используя логику, определенную в модуле game.
@@ -22,7 +23,9 @@ def run_game(game):
         if user_answer == str(correct_answer):  # Преобразуем к строке для сравнения
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(
+                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+            )
             print(f"Let's try again, {name}!")
             return
 
