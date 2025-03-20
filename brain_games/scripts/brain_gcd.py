@@ -1,4 +1,4 @@
-from ..games import brain_gcd
+from ..games import engine 
 
-if __name__ == "__main__":
-	brain_gcd.main()
+def main():
+	engine.run_game(this_module)

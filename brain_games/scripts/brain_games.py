@@ -1,6 +1,7 @@
-from ..games import brain_games
+from ..games import engine
 
-if __name__ == "__main__":
-	brain_games.main()
+
+def main():
+	engine.run_game()
 
 
